@@ -1,13 +1,10 @@
-import java.util.*;
-class Solution {
-	
-	public static void main(String args[]) {
-		
-		// Write code here
-		Scanner s = new Scanner (System.in);
-		int l = s.nextInt();
-		int b = s.nextInt();
-		int a = l*b;
-		System.out.println(a);
-	}
+import java.util.* ;
+import java.io.*; 
+public class Solution 
+{
+    public static void sort012(int[] arr)
+    {
+        //Write your code here
+        Arrays.sort(arr);
+    }
 }
